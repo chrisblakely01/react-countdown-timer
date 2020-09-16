@@ -1,0 +1,67 @@
+body {
+  background: rgb(204, 204, 241);
+}
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock-section {
+  /* background: #6da2df; */
+  background: #4e5267;
+  flex: 0.5;
+  height: 500px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: 10px 10px 30px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 30px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 30px -11px rgba(0, 0, 0, 0.75);
+}
+
+.CircularProgressbar-path {
+  stroke: rgba(130, 224, 149) !important;
+}
+.CircularProgressbar-trail {
+  stroke: gray !important;
+}
+.CircularProgressbar-text {
+  fill: rgba(130, 224, 149) !important;
+}
+.CircularProgressbar-background {
+  fill: rgba(130, 224, 149) !important;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+button {
+  background: rgb(33, 199, 102);
+  font-size: 24px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  color: rgb(53, 52, 52);
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(85, 224, 143);
+}
+
+button:focus {
+  outline: none;
+}
